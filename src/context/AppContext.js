@@ -1,3 +1,18 @@
+/*
+    This file defines the context and provider for managing the state of the budget allocation application.
+    It includes the following sections:
+
+    1. Initial state: Defines the initial state of the application including budget, expenses, and currency.
+    
+    2. AppContext: Creates the context that allows components to access the application state.
+
+    3. AppProvider: Wraps the components that need access to the state and provides them with the state and a dispatch function.
+    
+    4. AppReducer: Defines the reducer function used to update the state based on dispatched actions.
+    
+    5. Reducer logic: Contains the logic for handling different types of actions such as adding expenses, reducing expenses, deleting expenses, setting budget, and changing currency.
+*/
+
 import React, { createContext, useReducer } from 'react';
 
 // 5. The reducer - this is used to update the state, based on the action
