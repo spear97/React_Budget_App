@@ -1,38 +1,49 @@
+/*
+    CSS styles for the Company's Budget Allocation application.
+    Styles are applied to various elements and components within the application.
+*/
+
+/* Center align the content */
 .App {
-  text-align: center;
+    text-align: center;
 }
 
+/* Styling for the application logo */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
+/* Animation for the application logo spin */
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
+/* Styles for the application header */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
+/* Styles for links within the application */
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
+/* Keyframes for spinning animation */
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
